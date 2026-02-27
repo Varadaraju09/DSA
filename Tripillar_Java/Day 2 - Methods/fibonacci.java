@@ -1,4 +1,4 @@
-public class fibonacci {
+public class Fibonacci {
 
     void fib(int n) {  // use static --> need not to create object in main func
         int n1 = 0;
@@ -12,7 +12,7 @@ public class fibonacci {
         }
     }
     public static void main(String[] args) {
-        fibonacci f = new fibonacci(); 
+        Fibonacci f = new Fibonacci(); 
         f.fib(10);
     }
 }
