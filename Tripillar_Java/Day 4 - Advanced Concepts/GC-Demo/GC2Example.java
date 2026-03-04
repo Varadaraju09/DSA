@@ -1,4 +1,3 @@
-
 public class GC2Example {
     @Deprecated
     @Override

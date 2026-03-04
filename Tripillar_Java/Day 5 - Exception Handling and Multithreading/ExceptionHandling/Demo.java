@@ -4,7 +4,7 @@ public class Demo {
             int balance = 2000;
             int withdraw = 3000;
             if(withdraw > balance) {
-                throw new ArithmeticException("Inssufficient Funds");
+                throw new ArithmeticException("Insufficient Funds");
             }
             System.out.println("Withdrawl Successfull");
         } catch (ArithmeticException e) {

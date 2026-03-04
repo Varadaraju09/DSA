@@ -15,7 +15,7 @@ static void readFile() throws IOException {
         try {
             display();
         } catch (IOException e) {
-            // System.out.println(e);
+            System.out.println(e);
             System.out.println(e.getMessage());
         }
     }

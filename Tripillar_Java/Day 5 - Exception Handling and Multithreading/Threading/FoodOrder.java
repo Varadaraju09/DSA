@@ -24,5 +24,5 @@ public class FoodOrder extends Thread {
 💫 Extend Thread
 💫 Override run()
 💫 Use start()
-💫 It is less flexible because of inheritance limitati
+💫 It is less flexible because of inheritance limitation
 */
