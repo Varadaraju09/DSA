@@ -1,0 +1,55 @@
+💫 Stable vs Unstable Sorting Algorithms
+💫 A sorting algorithm is called stable if it keeps the relative order of elements with equal values after sorting.
+💫 If the relative order changes, the sorting algorithm is unstable.
+
+
+1️⃣ Stable Sorting Algorithm
+
+-> A stable sort preserves the order of duplicate elements.
+Example :
+Suppose we have records with (Name, Marks) and we sort by marks.
+Before sorting:
+Name	Marks
+A	     80
+B	     90
+C	     80
+D	     70
+
+After stable sorting by marks:
+Name	Marks
+D	     70
+A	     80
+C	     80
+B	     90
+
+Here A and C both have 80, and A appeared before C originally, so the order remains the same.
+
+✅ Stable Algorithms
+1. Merge Sort
+2. Bubble Sort
+3. Insertion Sort
+
+2️⃣ Unstable Sorting Algorithm
+-> An unstable sort may change the order of equal elements.
+Example :
+Before sorting:
+Name	Marks
+A	     80
+B	     90
+C	     80
+D	     70
+
+After unstable sorting by marks:
+Name	Marks
+D	     70
+C	     80
+A	     80
+B	     90
+
+Here A and C both have 80, but their order changed.
+
+❌ Unstable Algorithms
+
+1. Quick Sort
+2. Heap Sort
+3. Selection Sort
