@@ -1,4 +1,4 @@
-public class oddeven {
+public class Oddeven {
     public static void main(String[] args) {
         int num = 4;
 

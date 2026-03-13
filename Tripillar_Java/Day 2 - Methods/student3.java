@@ -1,12 +1,12 @@
-public class student3 {
+public class Student3 {
 
     String name;
     int age;
-    student3() {
+    Student3() {
         System.out.println("default");
     }
 
-    student3 (String name, int age) {
+    Student3 (String name, int age) {
         this();
         this.name = name;
         this.age = age;
@@ -16,7 +16,7 @@ public class student3 {
         System.out.println("name"+"age");
     }
     public static void main(String[] args) {
-        student3 st = new student3();
+        Student3 st = new Student3();
 
         st.name = "yashas";
         st.age = 100;
