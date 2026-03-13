@@ -9,12 +9,13 @@ class DNode {
         this.data = data;
     }
 }
+
 public class DoublyLinkedList {
     static DNode head = null;
 
     static void insert(int data) {
         DNode newNode = new DNode(data);
-        if(head == null) {
+        if (head == null) {
             head = newNode;
             return;
         }
@@ -25,21 +26,22 @@ public class DoublyLinkedList {
         temp.next = newNode;
         newNode.prev = temp;
     }
- 
+
     static void display() {
-        DNode  temp = head;
+        DNode temp = head;
         System.out.print("null <->");
         while (temp != null) {
-            System.out.print(temp.data+" <--> ");
+            System.out.print(temp.data + " <--> ");
             temp = temp.next;
         }
         System.out.println("null");
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of nodes");
         int n = sc.nextInt();
-        System.out.println("Enter the "+n+" nodes");
+        System.out.println("Enter the " + n + " nodes");
         for (int i = 0; i < n; i++) {
             insert(sc.nextInt());
         }

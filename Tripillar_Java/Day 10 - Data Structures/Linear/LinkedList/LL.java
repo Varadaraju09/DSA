@@ -19,7 +19,7 @@ class LL {
 
     public void printList() {
         Node curr = head;
-        while (curr != null) {
+        while (curr.next != null) {
             System.out.print(curr.data + "-> ");
             curr = curr.next;
         }
