@@ -5,7 +5,7 @@ public class PostFixEvaluation {
         Stack<Integer> stack = new Stack<>();
         for (char c : exp.toCharArray()) {
             if (Character.isDigit(c)) { // Check if it's a digit
-                stack.push(c - '0');    // Store the integer version
+                stack.push(c - '0'); // Store the integer version
             } else {
                 int b = stack.pop();
                 int a = stack.pop();

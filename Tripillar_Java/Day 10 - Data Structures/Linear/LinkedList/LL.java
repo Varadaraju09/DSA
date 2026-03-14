@@ -24,6 +24,7 @@ class LL {
             curr = curr.next;
         }
         System.out.println("null");
+        System.out.println("Size: "+size);
     }
 
     // 1.
